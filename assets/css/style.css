@@ -1,0 +1,55 @@
+/* typography */
+@import url();
+
+/*variables*/
+:root {
+    --primaryBrown: #53270E;
+    --primaryRed: #9A3818;
+    --primaryOrange: #BE531F;
+    --secondaryOrange: #F38939;
+    --cream: #FDF6EC;
+    --Gray: #EDEDED;
+    --heading: #191818;
+    --gråHeading: #BDBDBD;
+}
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*general styling og typography*/
+body {
+    font-family: 'kanit';
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    line-height: 150%;
+    max-width: 70ch;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
