@@ -93,3 +93,18 @@ footer {
 
     background: url(photo-1649305325639-a0828151a0d0.png);
 }
+
+
+
+/* Pensionsophold */ 
+
+.opholdspakker{
+    background-color: var(--cream);
+    display: flex;
+}
+
+.opholdspakker div{
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+}
