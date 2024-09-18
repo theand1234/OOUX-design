@@ -32,7 +32,7 @@ h4,
 p {
     font-family: 'open Sans';
     line-height: 150%;
-    max-width: 70ch;
+    max-width: 70ch;    
 }
 
 h1 {
@@ -51,7 +51,7 @@ h4 {
     font-size: 32px;
 }
 
-p {
+.opholdspakker p {
     font-size: 24px;
 }
 
@@ -90,6 +90,76 @@ footer {
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     background: url(photo-1649305325639-a0828151a0d0.png);
+}
+
+
+
+/* Pensionsophold */ 
+.heroPension {
+    width: 100%;
+    text-align: center; 
+    height: 80vh; 
+}
+
+.heroPension img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    object-fit: cover;
+    height: 100%;}
+
+.heroPension h2, .heroPension p {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.heroPension h2 {
+    font-size: 48px;
+    margin-bottom: 20px; 
+}
+
+.opholdspakker{
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    
+    
+
+   
+    
+
+}
+
+.opholdspakker div{
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+    width: 552px;
+    
+
+}
+
+.opholdspakker ul{
+padding-left: 2rem;
+}
+.praktiskInfo{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--cream);
+    padding: 1rem;
+    align-items: center;
+}
+
+.praktiskInfo svg {
+    color: var(--primaryRed);
+    margin-right: 1rem;
 }
