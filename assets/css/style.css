@@ -54,3 +54,24 @@ h4 {
 p {
     font-size: 24px;
 }
+
+/* nav*/
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5d494161;
+    padding: 2.5rem 0px;
+
+}
+
+.nav section ul {
+    display: flex;
+}
+
+.nav section ul li {
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
