@@ -66,6 +66,11 @@ p {
 
 }
 
+.nav a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
 .nav section ul {
     display: flex;
 }
