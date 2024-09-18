@@ -1,6 +1,7 @@
 /* typography */
 @import url();
 
+
 /*variables*/
 :root {
     --primaryBrown: #53270E;
@@ -25,7 +26,12 @@ body {
     font-family: 'kanit';
 }
 
-h1,
+h1{
+    font-family: Kanit;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+}
 h2,
 h3,
 h4,
@@ -100,6 +106,7 @@ footer {
     width: 100%;
     text-align: center; 
     height: 80vh; 
+    
 }
 
 .heroPension img {
@@ -112,7 +119,7 @@ footer {
     object-fit: cover;
     height: 100%;}
 
-.heroPension h2, .heroPension p {
+.heroPension h1, .heroPension p {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -120,9 +127,13 @@ footer {
 
 }
 
-.heroPension h2 {
+.heroPension h1 {
     font-size: 48px;
     margin-bottom: 20px; 
+}
+
+.dagsprogram{
+
 }
 
 .opholdspakker{
@@ -143,6 +154,15 @@ footer {
     padding: 2rem;
     width: 552px;
     
+
+}
+
+.opholdspakker button{
+    color: white;
+    background-color:var(--primaryBrown);
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+    border-style: none;
 
 }
 
