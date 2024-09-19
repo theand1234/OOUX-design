@@ -189,10 +189,6 @@ footer div p {
     padding-top: 4rem;
 }
 
-.forsideSect1 p {
-    padding-top: 2rem;
-}
-
 .cardsForside {
     display: flex;
     gap: 4rem;
@@ -241,6 +237,115 @@ footer div p {
     padding-top: 0;
     color: var(--heading);
 
+}
+
+.andreHundeKnap {
+    color: var(--cream);
+    background-color: var(--primaryBrown);
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.andreHundeKnap p {
+    padding: 1rem 2rem;
+}
+
+.forsideSect2 {
+    background-color: #FFF5F4;
+    display: flex;
+    width: 100%;
+}
+
+.sectHundepension {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 70vh;
+    width: auto;
+    margin: 2rem auto;
+    padding-right: 3rem;
+}
+
+.sectHundepension p:nth-child(1) {
+    padding-top: 2px;
+    font-size: 12px;
+    color: var(--gråHeading);
+}
+
+.sectHundepension h4 {
+    color: var(--primaryBrown);
+}
+
+.forsideSect3 {
+    background-color: #E8D6CC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forsideSect3 h4 {
+    padding-top: 4rem;
+}
+
+.forsideSect3 p {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.forsideSect3 div:nth-child(3) {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.andreTraeningKnap {
+    color: var(--cream);
+    background-color: var(--primaryBrown);
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.andreTraeningKnap p {
+    padding: 1rem 2rem;
+}
+
+.forsideSect4 {
+    background-color: #FFF5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forsideSect4 h4 {
+    padding-top: 4rem;
+}
+
+.forsideSect4 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.forsideSect4 div:nth-child(3) {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.ansatteCard {
+    background-color: #FFF;
+    display: flex;
+    padding: 3rem;
+    box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ansatteCard h5 {
+    font-size: 22px;
+}
+
+.ansatteCard p {
+    font-size: 16px;
 }
 
 /* Pensionsophold */
