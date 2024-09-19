@@ -123,6 +123,7 @@ footer div p {
     width: 100%;
     text-align: center;
     height: 80vh;
+    display: flex;
 
 }
 
@@ -146,6 +147,9 @@ footer div p {
 
 }
 
+.heroPension p{
+    text-align: center;
+}
 .heroPension h1 {
     font-size: 48px;
     margin-bottom: 20px;
@@ -180,11 +184,18 @@ footer div p {
     border-radius: 10px;
     padding: 1rem 2rem 1rem 2rem;
     border-style: none;
-
+  
+  
 }
+
+
 
 .opholdspakker ul {
     padding-left: 2rem;
+}
+
+.opholdspakker li{
+    margin-top: 1rem;
 }
 
 .praktiskInfo {
