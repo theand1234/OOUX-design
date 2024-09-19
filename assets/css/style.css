@@ -1,7 +1,6 @@
 /* typography */
 @import url();
 
-
 /*variables*/
 :root {
     --primaryBrown: #53270E;
@@ -26,13 +25,7 @@ body {
     font-family: 'kanit';
 }
 
-h1 {
-    font-family: Kanit;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -43,8 +36,12 @@ p {
 }
 
 h1 {
+    font-family: Kanit;
     font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
 }
+
 
 h2 {
     font-size: 48px;
@@ -56,6 +53,10 @@ h3 {
 
 h4 {
     font-size: 32px;
+}
+
+p {
+    font-size: 24px;
 }
 
 .opholdspakker p {
@@ -92,13 +93,30 @@ h4 {
 footer {
     width: 100%;
     height: 100%;
+
     background-image: url('../images/Forside/footer.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+footer section {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+footer div,
+footer a {
+    color: var(--cream);
+}
+
+footer div p:nth-child(2) {
+    margin-top: 2rem;
+}
+
+footer div p {
+    margin-top: 1rem;
+}
 
 /* Pensionsophold */
 .heroPension {
