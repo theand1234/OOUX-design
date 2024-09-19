@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 p {
@@ -98,11 +98,22 @@ footer {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px;
 }
 
 footer section {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+.footerh4 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+footer div p {
+    font-size: 16px;
 }
 
 footer div,
@@ -170,8 +181,6 @@ footer div p {
     margin: 2rem;
     padding: 2rem;
     width: 552px;
-
-
 }
 
 .opholdspakker button {
