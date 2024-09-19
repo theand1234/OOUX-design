@@ -83,13 +83,11 @@ p {
 }
 
 footer {
-    /*photo-1649305325639-a0828151a0d0 */
+    width: 100%;
+    height: 100%;
 
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: url(photo-1649305325639-a0828151a0d0.png);
+    background-image: url('../images/Forside/footer.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
