@@ -176,8 +176,6 @@ footer div p {
 
 
 
-
-
 }
 
 .opholdspakker div {
@@ -221,3 +219,109 @@ footer div p {
     color: var(--primaryRed);
     margin-right: 1rem;
 }
+
+/* Specifik hund */
+
+.baggrundHund{
+    background-color: var(--cream);
+}
+
+
+.specifikHund{
+display: grid;
+margin: 0rem 10rem 0rem 10rem;
+grid-template-columns: 2fr 1fr;
+border-radius: 10px;
+}
+
+
+.tilbage{
+    transform: translateY(100%);
+}
+.specifikHund img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.specifikHund li{
+    list-style: none;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.hundSpe{
+    background-image: url('../images/Forside/mollySp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titelAHund{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.hundprofil{
+    display: grid;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hundprofil li svg {
+    margin-right: 1rem;
+}
+
+.hundpris{
+    text-align: right;
+  
+}
+
+
+.beskrivelseHund{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0rem 10rem 2rem 10rem;
+    padding: 1.5rem;
+    background-color: white;
+    align-items: baseline;
+    
+
+}
+
+.adopProces{
+    padding: 2rem;
+}
+
+.adopProces li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.adopProces p{
+    padding-left:2rem ;
+}
+.adopProces svg{
+    border-radius: 50px;
+    background-color: var(--primaryRed);
+    color: white;
+    width: 30px;
+    height: 30px;
+    align-items:end;
+}
+
+.tipsAdo{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0rem 10rem 10rem 10rem;
+    padding: 2rem;
+}
+.tipsAdo svg{
+    padding-right: 2rem;
+    width: 47px;
+    height: 47px;
+}
+
