@@ -1,6 +1,7 @@
 /* typography */
 @import url();
 
+
 /*variables*/
 :root {
     --primaryBrown: #53270E;
@@ -25,7 +26,13 @@ body {
     font-family: 'kanit';
 }
 
-h1,
+h1 {
+    font-family: Kanit;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 h2,
 h3,
 h4,
@@ -51,7 +58,7 @@ h4 {
     font-size: 32px;
 }
 
-p {
+.opholdspakker p {
     font-size: 24px;
 }
 
@@ -85,9 +92,94 @@ p {
 footer {
     width: 100%;
     height: 100%;
-
     background-image: url('../images/Forside/footer.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+/* Pensionsophold */
+.heroPension {
+    width: 100%;
+    text-align: center;
+    height: 80vh;
+
+}
+
+.heroPension img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+}
+
+.heroPension h1,
+.heroPension p {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.heroPension h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.dagsprogram {}
+
+.opholdspakker {
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+
+}
+
+.opholdspakker div {
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+    width: 552px;
+
+
+}
+
+.opholdspakker button {
+    color: white;
+    background-color: var(--primaryBrown);
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+    border-style: none;
+
+}
+
+.opholdspakker ul {
+    padding-left: 2rem;
+}
+
+.praktiskInfo {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--cream);
+    padding: 1rem;
+    align-items: center;
+}
+
+.praktiskInfo svg {
+    color: var(--primaryRed);
+    margin-right: 1rem;
 }
