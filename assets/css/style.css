@@ -338,3 +338,169 @@ footer div p {
     padding: 4rem;
 
 }
+
+/* -----træning------- */
+body{
+    background-color:#FFF5F4;
+}
+
+.treaningHero{
+    background-color: #9A3818;
+    margin: 2% 5% 2% 5%;
+    margin-bottom: 0;
+    border-radius: 4px;
+    height: 600px;
+}
+.treaningHero p, .treaningHero h1{
+    color:#ffffff;
+}
+.treaningHero h1, .treaningContent h4{
+    padding-bottom: 1rem;
+}
+.treaningIntro, .treaningContent{
+    padding: 5% 10%
+
+}
+.treaningIntro p:first-child {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.treaningIntro p:last-of-type{
+    max-width: 700px;
+}
+.treaningHero svg{
+    margin: 1.8rem;
+}
+.treaningContent{
+    margin: 0.5rem 5% 2% 5%;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.intruktoer{
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    background-color: white;
+    max-width: fit-content;
+    margin: 0rem 1rem 0 2rem;
+    border-radius: 4px;
+    box-shadow: 1px 3px 6px rgba(152, 152, 152, 0.463);
+}
+.intruktoer p:first-child{
+    text-transform: uppercase;
+    color: var(--primaryOrange);
+    font-size: 12px;
+    font-weight: 300;
+}
+.intruktoer p{
+    color: var(--heading);
+    font-weight: 600;
+}
+.intruktoer img {
+    margin: 2rem 0rem;
+    height: 200px;
+    width: auto;
+
+}
+.instruktoerBtn{
+    background-color: var(--primaryBrown);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    width: fit-content;
+
+}
+.instruktoerBtn p{
+    font-size: 16px;
+    color: white;
+    padding-left:20px;
+    margin: 0;
+    width: 155px;
+}
+.treaningContent .description{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 0;
+    padding-bottom: 5rem;
+}
+.description p{
+    max-width: 600px;
+}
+.btn{
+    background-color: var(--primaryBrown);
+    padding: 15px 50px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.divBtn{
+    text-align: center;
+}
+.treaningImg{
+    margin-top: 6rem;
+    margin-bottom: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+.treaningCard{
+    background-color: #ffffff;
+    color: var(--heading);
+    margin: 4rem 0rem;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 1rem 2rem;
+    height: 160px;
+    width: 300px; 
+    box-shadow: 1px 3px 6px rgba(152, 152, 152, 0.463);
+    transition: .4s;
+}
+.treaningCard :nth-child(2) {
+    font-size: 14px;
+}
+.treaningTitle{
+    font-weight: 500;
+    font-family: 'kanit';
+    margin-bottom: 10px ;
+}
+.cardLink a {
+    text-decoration: none;
+    color:var(--heading);
+}
+
+.cardLink{
+    text-align: right;
+    margin: 20px 0px 10px;
+}
+.andreHunde{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-items: center;
+}
+.andreHundeSec{
+    margin: 5%;
+}
+.treaningSide{
+    background-color: #E8D6CC;
+}
+.treaningCard:hover, .cardLink a:hover{
+    background-color: var(--primaryRed);
+    color: white;
+}
+.andreHundeNav{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
