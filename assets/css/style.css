@@ -370,6 +370,20 @@ footer div p {
     padding-left: 1rem;
 }
 
+/*adoptionsdyrSect*/
+.adoptionsdyrSect {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adoptionsdyrSect div {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
 /* Pensionsophold */
 
 
