@@ -158,9 +158,10 @@ footer div p {
 
 }
 
-.heroPension p{
+.heroPension p {
     text-align: center;
 }
+
 .heroPension h1 {
     font-size: 48px;
     margin-bottom: 20px;
@@ -191,8 +192,8 @@ footer div p {
     border-radius: 10px;
     padding: 1rem 2rem 1rem 2rem;
     border-style: none;
-  
-  
+
+
 }
 
 
@@ -201,7 +202,7 @@ footer div p {
     padding-left: 2rem;
 }
 
-.opholdspakker li{
+.opholdspakker li {
     margin-top: 1rem;
 }
 
@@ -222,48 +223,49 @@ footer div p {
 
 /* Specifik hund */
 
-.baggrundHund{
+.baggrundHund {
     background-color: var(--cream);
 }
 
 
-.specifikHund{
-display: grid;
-margin: 0rem 10rem 0rem 10rem;
-grid-template-columns: 2fr 1fr;
-border-radius: 10px;
+.specifikHund {
+    display: grid;
+    margin: 0rem 10rem 0rem 10rem;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
 }
 
 
-.tilbage{
+.tilbage {
     transform: translateY(100%);
 }
-.specifikHund img{
+
+.specifikHund img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.specifikHund li{
+.specifikHund li {
     list-style: none;
     padding: 1rem;
     justify-content: center;
 }
 
-.hundSpe{
+.hundSpe {
     background-image: url('../images/Forside/mollySp.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.titelAHund{
-    display: flex; 
+.titelAHund {
+    display: flex;
     justify-content: space-between;
 }
 
 
-.hundprofil{
+.hundprofil {
     display: grid;
     padding: 2rem;
     background-color: white;
@@ -274,54 +276,65 @@ border-radius: 10px;
     margin-right: 1rem;
 }
 
-.hundpris{
+.hundpris {
     text-align: right;
-  
+
 }
 
 
-.beskrivelseHund{
+.beskrivelseHund {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 0rem 10rem 2rem 10rem;
     padding: 1.5rem;
     background-color: white;
     align-items: baseline;
-    
+
 
 }
 
-.adopProces{
+.adopProces {
     padding: 2rem;
 }
 
-.adopProces li{
+.adopProces li {
     list-style: none;
     font-size: 22px;
 }
 
-.adopProces p{
-    padding-left:2rem ;
+.adopProces p {
+    padding-left: 2rem;
 }
-.adopProces svg{
+
+.adopProces svg {
     border-radius: 50px;
     background-color: var(--primaryRed);
     color: white;
     width: 30px;
     height: 30px;
-    align-items:end;
+    align-items: end;
 }
 
-.tipsAdo{
+.tipsAdo {
     display: flex;
     background-color: white;
     border-radius: 10px;
     margin: 0rem 10rem 10rem 10rem;
     padding: 2rem;
 }
-.tipsAdo svg{
+
+.tipsAdo svg {
     padding-right: 2rem;
     width: 47px;
     height: 47px;
 }
 
+.specifikHundTipsOgTricks {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+
+}
