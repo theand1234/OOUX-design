@@ -497,3 +497,24 @@ footer div p {
     color: var(--primaryRed);
     margin-right: 1rem;
 }
+
+
+/* Traening oversigt */ 
+.oversigtTra{
+    display: flex;
+    margin:5rem ;
+}
+
+.oversigtTra img{
+    width: 50%;
+    height: auto;
+}
+
+.oversigtTra div{
+    padding: 2rem;
+}
+
+.andreTra{
+text-align: center;
+
+}
