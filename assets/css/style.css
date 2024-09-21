@@ -410,6 +410,7 @@ body{
     justify-content: center;
     padding: 15px 30px;
     width: fit-content;
+    cursor: pointer;
 
 }
 .instruktoerBtn p{
@@ -465,14 +466,21 @@ body{
     font-family: 'kanit';
     margin-bottom: 10px ;
 }
-.cardLink a {
+.cardLink a p{
+    font-size: 12px;
+    margin-right: 6px;
+}
+.cardLink a{
     text-decoration: none;
-    color:var(--heading);
+    color: var(--heading);
 }
 
 .cardLink{
     text-align: right;
     margin: 20px 0px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .andreHunde{
     display: grid;
@@ -486,12 +494,15 @@ body{
 .treaningSide{
     background-color: #E8D6CC;
 }
-.treaningCard:hover, .cardLink a:hover{
+.treaningCard:hover {
     background-color: var(--primaryRed);
     color: white;
 }
 .andreHundeNav{
     margin-left: 1rem;
+}
+.treaningCard:hover a{
+    color: white;
 }
 
 
