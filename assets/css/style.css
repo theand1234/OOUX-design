@@ -379,9 +379,35 @@ footer div p {
 }
 
 .adoptionsdyrSect div {
-    display: flex;
-    justify-content: center;
     width: 30%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownIndhold {
+    background-color: #53270E;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdownIndhold a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 /* Pensionsophold */
