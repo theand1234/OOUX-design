@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Get the dropdown button
+    //finder drop down fra html
     var dropbtn = document.querySelector('.dropdownBtn');
 
-    // Add a click event listener to toggle the dropdown content
+    //tilføjer en event listener som lytter efter et click på .dropdown btn
     dropbtn.addEventListener('click', function () {
         var dropdownIndhold = document.querySelector('.dropdownIndhold');
 
-        // Toggle the display property
+        // tilføjer vores dropdown ved at ændre display til block
         if (dropdownIndhold.style.display === "block") {
             dropdownIndhold.style.display = "none";
         } else {
